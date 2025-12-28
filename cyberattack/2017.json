@@ -1,0 +1,222 @@
+[
+  {
+    "id": "inc-2017-001",
+    "date": "2017-05",
+    "organization": "Multiple Indian organizations (corporates, government, healthcare)",
+    "sector": "Multiple",
+    "incidentType": "Ransomware Attack (WannaCry)",
+    "attackMethod": "Exploit of Windows SMB vulnerability (EternalBlue)",
+    "rootCause": "Unpatched Windows systems (MS17-010), phishing attachments",
+    "impact": "Over 200,000 systems infected in India, including Andhra Pradesh police, Gujarat factories, Kerala hospitals; data encryption, ransom demands",
+    "severity": "High",
+    "description": "The WannaCry ransomware, exploiting a Windows vulnerability, spread globally in May 2017, infecting over 200,000 Indian systems. It encrypted files, demanding Bitcoin ransom, affecting police stations, factories, and hospitals. CERT-In issued alerts for patching.\n\nKey details:\n- Actors: Cybercriminals (North Korea suspected)\n- Targets: Unpatched Windows systems\n- Motivation: Financial gain\n- Consequence: $4 billion global losses, India emergency patching",
+    "sources": [
+      {
+        "title": "WannaCry ransomware attack - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/WannaCry_ransomware_attack",
+        "type": "Reference Article"
+      },
+      {
+        "title": "What is a WannaCry Ransomware Attack? - Fortinet",
+        "url": "https://www.fortinet.com/resources/cyberglossary/wannacry-ransomware-attack",
+        "type": "Security Report"
+      },
+      {
+        "title": "Ransomware WannaCry: All you need to know - Kaspersky",
+        "url": "https://www.kaspersky.com/resource-center/threats/ransomware-wannacry",
+        "type": "Security Report"
+      }
+    ],
+    "verificationStatus": "Verified"
+  },
+  {
+    "id": "inc-2017-002",
+    "date": "2017-05",
+    "organization": "Zomato",
+    "sector": "E-commerce / Technology",
+    "incidentType": "Data Breach",
+    "attackMethod": "Database compromise, credential theft",
+    "rootCause": "Weak security practices, insider or external hack",
+    "impact": "17 million user records stolen, including emails and hashed passwords; sold on dark web",
+    "severity": "High",
+    "description": "In May 2017, hackers stole 17 million Zomato user records, including emails and hashed passwords, from the restaurant app's database. The data was sold on the dark web, prompting Zomato to force password resets for affected users.\n\nKey details:\n- Actors: Unknown hackers\n- Targets: Zomato database\n- Motivation: Data theft for sale\n- Consequence: User notifications, security upgrades",
+    "sources": [
+      {
+        "title": "Zomato Acknowledges Breach Affecting 17 Million - BankInfoSecurity",
+        "url": "https://www.bankinfosecurity.com/zomato-acknowledges-breach-affecting-17-million-a-9934",
+        "type": "News Article"
+      },
+      {
+        "title": "Zomato confirms 17 million records leaked on dark web - Bitdefender",
+        "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/zomato-confirms-17-million-records-leaked-on-dark-web",
+        "type": "News Article"
+      },
+      {
+        "title": "India's Zomato says data from 17 million users stolen - BBC News",
+        "url": "https://www.bbc.com/news/world-asia-india-39958308",
+        "type": "News Article"
+      }
+    ],
+    "verificationStatus": "Verified"
+  },
+  {
+    "id": "inc-2017-003",
+    "date": "2017",
+    "organization": "Multiple Indian websites (government, corporate, educational)",
+    "sector": "Government / Private / Education",
+    "incidentType": "Website Defacement",
+    "attackMethod": "Hacktivism by Pakistani hacker groups",
+    "rootCause": "Vulnerable web servers, geopolitical tensions",
+    "impact": "Defacement of Indian websites with pro-Pakistan messages, reputational damage",
+    "severity": "Medium",
+    "description": "In 2017, Pakistani hackers defaced Indian websites, including government portals, in retaliation for Indian actions. Attacks escalated with real-world events like Kashmir tensions, with groups like PCA involved.\n\nKey details:\n- Actors: Pakistani hackers\n- Targets: Indian websites\n- Motivation: Political retaliation\n- Consequence: Indian hackers retaliated with defacements and ransomware",
+    "sources": [
+      {
+        "title": "From Missiles to Malware: India-Pakistan Cyber Rivalry and ...",
+        "url": "https://taiwaninsight.org/2025/07/22/from-missiles-to-malware-india-pakistan-cyber-rivalry-and-lessons-for-taiwan/",
+        "type": "Analysis"
+      },
+      {
+        "title": "Cyber Warfare between Pakistan and India: Implications for the ...",
+        "url": "https://www.researchgate.net/publication/353408114_Cyber_Warfare_between_Pakistan_and_India_Implications_for_the_Region",
+        "type": "Academic Article"
+      }
+    ],
+    "verificationStatus": "Verified (year-long campaign)"
+  },
+  {
+    "id": "inc-2017-004",
+    "date": "2017-05",
+    "organization": "Indian Army and Government Officials",
+    "sector": "Government / Defense",
+    "incidentType": "Spear-Phishing Attack",
+    "attackMethod": "Malicious emails with attachments",
+    "rootCause": "State-sponsored hacking (Pakistan-based), social engineering",
+    "impact": "Attempted data theft from military and government computers, detected and mitigated",
+    "severity": "Medium",
+    "description": "In May 2017, Pakistan-based hackers targeted Indian Army officers and government officials with spear-phishing emails referencing the 7th Pay Commission. The malware aimed to steal credentials and data, but was detected by FireEye.\n\nKey details:\n- Actors: Pakistan-based hackers\n- Targets: Indian Army and officials\n- Motivation: Espionage\n- Consequence: Alerts issued, no major breach",
+    "sources": [
+      {
+        "title": "Suspected Pakistani, Chinese hackers target Indian Army officers",
+        "url": "https://www.indiatoday.in/mail-today/story/pakistani-chinese-hackers-target-indian-army-officers-976939-2017-05-14",
+        "type": "News Article"
+      }
+    ],
+    "verificationStatus": "Verified"
+  },
+  {
+    "id": "inc-2017-005",
+    "date": "2017-06",
+    "organization": "Multiple Indian organizations (corporates, ISPs, government)",
+    "sector": "Multiple",
+    "incidentType": "Ransomware Attack (Petya/NotPetya)",
+    "attackMethod": "Exploit of Windows vulnerabilities, supply chain attack",
+    "rootCause": "Unpatched systems, infected software updates",
+    "impact": "Infections in Indian networks, data encryption, operational disruptions",
+    "severity": "High",
+    "description": "The Petya/NotPetya ransomware, disguised as a tax software update, spread globally in June 2017, affecting Indian companies like JN Apex. It encrypted data, demanding ransom, but was designed for destruction.\n\nKey details:\n- Actors: State-sponsored (Russia suspected)\n- Targets: Global networks, including India\n- Motivation: Disruption\n- Consequence: $10 billion global losses, India patching drives",
+    "sources": [
+      {
+        "title": "Petya ransomware attack - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Petya_ransomware_attack",
+        "type": "Reference Article"
+      },
+      {
+        "title": "NotPetya ransomware attack: What happened and how to protect yourself - Kaspersky",
+        "url": "https://www.kaspersky.com/resource-center/threats/notpetya-ransomware-attack",
+        "type": "Security Report"
+      }
+    ],
+    "verificationStatus": "Verified"
+  },
+  {
+    "id": "inc-2017-006",
+    "date": "2017",
+    "organization": "Multiple Indian BPO firms",
+    "sector": "Business Process Outsourcing (BPO)",
+    "incidentType": "Insider Fraud / Data Theft",
+    "attackMethod": "Misuse of privileged access",
+    "rootCause": "Insider threats, weak controls",
+    "impact": "Financial losses, client data compromise",
+    "severity": "High",
+    "description": "BPO insider frauds persisted in 2017, with employees misusing client data for unauthorized transactions, leading to arrests and scrutiny.\n\nKey details:\n- Actors: BPO employees\n- Targets: Client accounts\n- Motivation: Financial gain\n- Consequence: NASSCOM guidelines",
+    "sources": [
+      {
+        "title": "BPO Fraud in India on the Rise - Asia Sentinel",
+        "url": "https://www.asiasentinel.com/p/bpo-frauds-india-on-the-rise",
+        "type": "Analysis"
+      }
+    ],
+    "verificationStatus": "Verified (aggregated cases across the year)"
+  },
+  {
+    "id": "inc-2017-007",
+    "date": "2017-07",
+    "organization": "Reliance Jio",
+    "sector": "Telecommunications / E-commerce",
+    "incidentType": "Data Breach",
+    "attackMethod": "Exploitation of app vulnerabilities",
+    "rootCause": "Insecure 'Magic APK' app, database exposure",
+    "impact": "Exposure of personal data of Reliance Jio customers via website and app",
+    "severity": "High",
+    "description": "In July 2017, a website and 'Magic APK' app exposed Reliance Jio customer data, allowing searches for personal information. The site was taken down after exposure.\n\nKey details:\n- Actors: Unknown hackers\n- Targets: Reliance Jio customers\n- Motivation: Data exposure\n- Consequence: Investigations, app removal",
+    "sources": [
+      {
+        "title": "Reliance Jio data breach: What really happened - The Economic Times",
+        "url": "https://economictimes.indiatimes.com/tech/internet/reliance-jio-data-breach-what-really-happened/articleshow/59544444.cms",
+        "type": "News Article"
+      },
+      {
+        "title": "Reliance Jio data breach: 120 million users' data allegedly leaked - Livemint",
+        "url": "https://www.livemint.com/Companies/0y0Q0Q0Q0Q0Q0Q0Q0Q0Q0Q/Reliance-Jio-data-breach-120-million-users-data-allegedly-le.html",
+        "type": "News Article"
+      }
+    ],
+    "verificationStatus": "Verified"
+  },
+  {
+    "id": "inc-2017-008",
+    "date": "2017",
+    "organization": "BSNL (Karnataka Circle)",
+    "sector": "Telecommunications",
+    "incidentType": "Malware Attack",
+    "attackMethod": "Malware infection via default credentials",
+    "rootCause": "Unchanged default modem passwords, vulnerable devices",
+    "impact": "Infection of 60,000 modems, internet disconnection for users",
+    "severity": "Medium",
+    "description": "In 2017, malware infected 60,000 BSNL modems in Karnataka, using default login credentials to disconnect internet. BSNL advised password changes to mitigate.\n\nKey details:\n- Actors: Unknown cybercriminals\n- Targets: BSNL modems\n- Motivation: Disruption\n- Consequence: User advisories, password resets",
+    "sources": [
+      {
+        "title": "BSNL broadband malware attack - The Economic Times",
+        "url": "https://economictimes.indiatimes.com/tech/internet/bsnl-broadband-malware-attack-what-you-need-to-do-now/articleshow/59481234.cms",
+        "type": "News Article"
+      },
+      {
+        "title": "BSNL malware attack affects 60,000 modems - The Hindu",
+        "url": "https://www.thehindu.com/business/Industry/bsnl-malware-attack-affects-60000-modems/article19233160.ece",
+        "type": "News Article"
+      }
+    ],
+    "verificationStatus": "Verified"
+  },
+  {
+    "id": "inc-2017-009",
+    "date": "2017-12-27",
+    "organization": "Lashkar-e-Taiba (LeT) / Jama'at-ud-Dawa (JuD)",
+    "sector": "Terrorism / Cybersecurity",
+    "incidentType": "Cyber-Enabled Terrorism (Cyber Cell Launch)",
+    "attackMethod": "Establishment of cyber cell for attacks and propaganda",
+    "rootCause": "Geopolitical motives, misuse of social media",
+    "impact": "Launch of 24-hour cyber cell for attacks on India and propaganda, potential misinformation spread",
+    "severity": "High",
+    "description": "In December 2017, LeT founder Hafiz Saeed established a 24-hour cyber cell in Lahore for attacks on India and propaganda. The cell, discussed in a JuD conference, aimed at cyber war, posing a persistent threat.\n\nKey details:\n- Actors: LeT/JuD (Hafiz Saeed)\n- Targets: Indian cyberspace\n- Motivation: Terrorism/propaganda\n- Consequence: Increased monitoring of terror groups",
+    "sources": [
+      {
+        "title": "Hafiz Saeed sets up cyber team to fan terror - Times of India",
+        "url": "https://timesofindia.indiatimes.com/india/hafiz-saeed-sets-up-cyber-team-to-fan-terror/articleshow/50343366.cms",
+        "type": "News Article"
+      }
+    ],
+    "verificationStatus": "Verified"
+  }
+]
