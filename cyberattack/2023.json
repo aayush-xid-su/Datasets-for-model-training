@@ -1,0 +1,485 @@
+[
+  {
+    "id": "inc-2023-001",
+    "date": "2023-01-05",
+    "organization": "Juspay (Payment Gateway)",
+    "sector": "Financial Technology",
+    "incidentType": "Data Breach - Payment Platform",
+    "attackMethod": "Database compromise, unauthorized data access",
+    "rootCause": "Security vulnerabilities in payment processing systems",
+    "impact": "35 million users affected, payment card details and transaction data compromised from major e-commerce platforms",
+    "severity": "Critical",
+    "description": "Juspay, one of India's largest payment gateways serving major e-commerce platforms, suffered a significant data breach affecting 35 million users. The breach exposed payment card details, transaction histories, and user personal information, marking one of the largest fintech breaches in India.",
+    "details": {
+      "Actors": "Unknown cybercriminals",
+      "Targets": "Juspay payment gateway database, merchant transaction records",
+      "Motivation": "Financial data theft for fraud operations",
+      "Consequence": "Enhanced payment security protocols, regulatory scrutiny of fintech sector"
+    },
+    "sources": [
+      {
+        "title": "25 Major Cyber Attacks in India That Shocked the Nation",
+        "url": "https://www.sattrix.com/blog/biggest-cyber-attacks-in-india/",
+        "type": "Comprehensive Report"
+      }
+    ],
+    "verificationStatus": "Confirmed - Multiple security researchers verified"
+  },
+  {
+    "id": "inc-2023-002",
+    "date": "2023-02-19",
+    "organization": "RailYatri (Indian Railways Booking Platform)",
+    "sector": "Transportation/Government",
+    "incidentType": "Data Breach - Database Compromise",
+    "attackMethod": "Database breach, unauthorized data access and sale on dark web",
+    "rootCause": "Security misconfiguration, inadequate access controls on database systems",
+    "impact": "Over 31 million user records compromised including names, email addresses, phone numbers, travel information; data sold on BreachForums dark web marketplace",
+    "severity": "High",
+    "description": "In December 2022 (disclosed February 2023), RailYatri, India's largest train booking platform authorized by IRCTC, suffered a massive data breach affecting 31 million users and 37,000 invoices. The breach was discovered when cybercriminals listed the database for sale on BreachForums. This marked the second major breach for RailYatri after a 2020 incident affecting 700,000 users.",
+    "details": {
+      "Actors": "Unknown cybercriminals operating on dark web forums",
+      "Targets": "RailYatri user database, IRCTC passenger booking records",
+      "Motivation": "Financial gain through data sale",
+      "Consequence": "Enhanced security measures for railway booking platforms, IRCTC security review"
+    },
+    "sources": [
+      {
+        "title": "RailYatri Data Breach 2023; Stolen Data Leaked on Dark Web",
+        "url": "https://thecyberexpress.com/the-railyatri-data-breach-data-dump-dark-web/",
+        "type": "Security Report"
+      },
+      {
+        "title": "RailYatri Data Breach Leaves Over 30 Million Users Exposed",
+        "url": "https://heimdalsecurity.com/blog/railyatri-data-breach/",
+        "type": "Cybersecurity Analysis"
+      }
+    ],
+    "verificationStatus": "Verified - Multiple security researchers verified"
+  },
+  {
+    "id": "inc-2023-003",
+    "date": "2023-02-15",
+    "organization": "Motilal Oswal Financial Services",
+    "sector": "Finance",
+    "incidentType": "Ransomware Incident",
+    "attackMethod": "Malicious activity on employee systems",
+    "rootCause": "Compromised employee endpoints",
+    "impact": "Malicious activities detected; no operational disruption reported",
+    "severity": "Medium",
+    "description": "Motilal Oswal experienced a cyber incident linked to LockBit ransomware group. Malicious activities were detected on employee systems but promptly addressed without impacting operations.",
+    "details": {
+      "Actors": "LockBit ransomware group",
+      "Targets": "Employee systems",
+      "Motivation": "Extortion",
+      "Consequence": "Incident contained; IT resilience demonstrated"
+    },
+    "sources": [
+      {
+        "title": "India's Motilal Oswal says operations unaffected by cyber incident",
+        "url": "https://www.reuters.com/technology/cybersecurity/indias-motilal-oswal-says-operations-unaffected-by-cyber-incident-2024-02-19/",
+        "type": "News Report"
+      }
+    ],
+    "verificationStatus": "Verified - Company confirmed"
+  },
+  {
+    "id": "inc-2023-004",
+    "date": "2023-02-27",
+    "organization": "Burger Singh",
+    "sector": "Food & Beverage",
+    "incidentType": "Website Defacement",
+    "attackMethod": "Website hack triggered by promo code",
+    "rootCause": "Promotional code with geopolitical undertones",
+    "impact": "Website defaced; no data breach reported",
+    "severity": "Low",
+    "description": "Burger Singh's website was hacked by 'Team Insane PK' over a controversial promo code 'FPAK20', leading to defacement. The company embraced it humorously as an 'open mic night for hackers'.",
+    "details": {
+      "Actors": "Team Insane PK (Pakistani hacking group)",
+      "Targets": "Website",
+      "Motivation": "Geopolitical retaliation",
+      "Consequence": "Temporary defacement; humorous response"
+    },
+    "sources": [
+      {
+        "title": "Burger Singh Website Hit By Pakistani Hackers",
+        "url": "https://www.timesnownews.com/technology-science/burger-singh-website-hit-by-pakistani-hackers-heres-what-company-said-on-social-media-article-108077819",
+        "type": "News Report"
+      }
+    ],
+    "verificationStatus": "Verified - Company confirmed"
+  },
+  {
+    "id": "inc-2023-005",
+    "date": "2023-03-01",
+    "organization": "National Disaster Management Authority (NDMA)",
+    "sector": "Government - Disaster Management",
+    "incidentType": "Data Breach - Dark Web Sale",
+    "attackMethod": "Unauthorized access to volunteer database",
+    "rootCause": "Inadequate security on volunteer management system",
+    "impact": "Personal data of 93,000 volunteers exposed and sold on dark web",
+    "severity": "Medium",
+    "description": "NDMA suffered a data breach exposing personal information of 93,000 volunteers. The hacker, using the alias 'infamous,' accessed and offered the data for sale on the dark web, raising concerns for disaster management security.",
+    "details": {
+      "Actors": "Hacker alias 'infamous'",
+      "Targets": "NDMA volunteer database",
+      "Motivation": "Financial gain",
+      "Consequence": "Volunteers advised on identity theft prevention; security review initiated"
+    },
+    "sources": [
+      {
+        "title": "25 Major Cyber Attacks in India That Shocked the Nation",
+        "url": "https://www.sattrix.com/blog/biggest-cyber-attacks-in-india/",
+        "type": "Comprehensive Report"
+      }
+    ],
+    "verificationStatus": "Claimed and partially confirmed"
+  },
+  {
+    "id": "inc-2023-006",
+    "date": "2023-03-02",
+    "organization": "Sun Pharmaceutical Industries",
+    "sector": "Pharmaceutical",
+    "incidentType": "Cyberattack",
+    "attackMethod": "Unauthorized access leading to data theft",
+    "rootCause": "Security vulnerabilities in IT systems",
+    "impact": "Operations disrupted; 17TB of data compromised according to reports",
+    "severity": "High",
+    "description": "Sun Pharma faced a cyberattack disrupting operations. The company disclosed the breach but details on perpetrators and data extent remain unclear, marking the third major attack on an Indian drugmaker.",
+    "details": {
+      "Actors": "Unknown",
+      "Targets": "IT systems",
+      "Motivation": "Data theft and disruption",
+      "Consequence": "Disclosure to stock exchanges; concerns over healthcare infrastructure security"
+    },
+    "sources": [
+      {
+        "title": "Sun Pharma Cyber Attack Confirmed, Hackers Access 17TB Data",
+        "url": "https://thecyberexpress.com/sun-pharma-cyber-attack/",
+        "type": "Security Report"
+      }
+    ],
+    "verificationStatus": "Verified - Company confirmed"
+  },
+  {
+    "id": "inc-2023-007",
+    "date": "2023-03-17",
+    "organization": "Polycab India Limited",
+    "sector": "Manufacturing",
+    "incidentType": "Ransomware Attack",
+    "attackMethod": "Ransomware targeting IT infrastructure",
+    "rootCause": "Vulnerabilities in IT systems",
+    "impact": "IT infrastructure compromised; core systems unaffected",
+    "severity": "Medium",
+    "description": "Polycab, a leading wires and cables manufacturer, reported a ransomware attack on its IT infrastructure. Operations remained unaffected as core systems were isolated.",
+    "details": {
+      "Actors": "Unknown ransomware group",
+      "Targets": "IT infrastructure",
+      "Motivation": "Extortion",
+      "Consequence": "Collaboration with experts for investigation and security enhancement"
+    },
+    "sources": [
+      {
+        "title": "Polycab targeted by ransomware attack; company says core systems and operations not impacted",
+        "url": "https://www.financialexpress.com/business/industry-polycab-targeted-by-ransomware-attack-company-says-core-systems-and-operations-not-impacted-3432321/",
+        "type": "News Report"
+      }
+    ],
+    "verificationStatus": "Verified - Company confirmed"
+  },
+  {
+    "id": "inc-2023-008",
+    "date": "2023-04-05",
+    "organization": "boAt India",
+    "sector": "Consumer Electronics",
+    "incidentType": "Data Breach",
+    "attackMethod": "Unauthorized access to customer database",
+    "rootCause": "Security vulnerabilities",
+    "impact": "7.5 million users' personal data leaked including names, emails",
+    "severity": "High",
+    "description": "Consumer electronics brand boAt experienced a breach leaking data of 7.5 million users, shared on dark web forums by hacker 'ShopifyGUY'.",
+    "details": {
+      "Actors": "Hacker 'ShopifyGUY'",
+      "Targets": "Customer database",
+      "Motivation": "Data sale",
+      "Consequence": "Investigation initiated"
+    },
+    "sources": [
+      {
+        "title": "25 Major Cyber Attacks in India That Shocked the Nation",
+        "url": "https://www.sattrix.com/blog/biggest-cyber-attacks-in-india/",
+        "type": "Comprehensive Report"
+      }
+    ],
+    "verificationStatus": "Claimed and leaked"
+  },
+  {
+    "id": "inc-2023-009",
+    "date": "2023-04-20",
+    "organization": "Rentomojo",
+    "sector": "E-commerce",
+    "incidentType": "Data Breach",
+    "attackMethod": "Cloud misconfiguration exploitation",
+    "rootCause": "Sophisticated attacks on cloud database",
+    "impact": "Personal information of users at risk; no financial data compromised",
+    "severity": "Medium",
+    "description": "Online rental platform Rentomojo suffered a data breach due to cloud misconfiguration, exposing user personal information. The company assured no financial data was affected.",
+    "details": {
+      "Actors": "Hacking group",
+      "Targets": "User database",
+      "Motivation": "Data theft",
+      "Consequence": "Security review; enhanced practices"
+    },
+    "sources": [
+      {
+        "title": "25 Major Cyber Attacks in India That Shocked the Nation",
+        "url": "https://www.sattrix.com/blog/biggest-cyber-attacks-in-india/",
+        "type": "Comprehensive Report"
+      }
+    ],
+    "verificationStatus": "Verified - Company confirmed"
+  },
+  {
+    "id": "inc-2023-010",
+    "date": "2023-04-25",
+    "organization": "Multiple Organizations - Cyberabad Police Investigation",
+    "sector": "Multiple (Banking, IT, Government)",
+    "incidentType": "Mass Data Breach Investigation",
+    "attackMethod": "Multiple breach vectors across various organizations",
+    "rootCause": "Systematic vulnerabilities across multiple sectors, inadequate cybersecurity practices",
+    "impact": "66.9 crore (669 million) individuals and organizations affected in massive coordinated data breach investigation",
+    "severity": "Critical",
+    "description": "Cyberabad Police launched a major investigation into a massive data breach affecting over 669 million individuals and organizations. Notices were issued to 11 organizations including banks and IT firms for unauthorized access and theft of personal and confidential data. This investigation revealed systemic cybersecurity failures across multiple sectors.",
+    "details": {
+      "Actors": "Multiple threat actors targeting various sectors",
+      "Targets": "Banks, IT companies, government organizations",
+      "Motivation": "Data theft for financial gain and identity fraud",
+      "Consequence": "Enhanced cybersecurity regulations, mandatory breach reporting protocols"
+    },
+    "sources": [
+      {
+        "title": "25 Major Cyber Attacks in India That Shocked the Nation",
+        "url": "https://www.sattrix.com/blog/biggest-cyber-attacks-in-india/",
+        "type": "Investigation Report"
+      }
+    ],
+    "verificationStatus": "Verified - Police investigation confirmed"
+  },
+  {
+    "id": "inc-2023-011",
+    "date": "2023-05-04",
+    "organization": "Tamil Nadu Police Facial Recognition Portal",
+    "sector": "Government - Law Enforcement",
+    "incidentType": "Data Breach",
+    "attackMethod": "Compromised credentials",
+    "rootCause": "Weak authentication",
+    "impact": "Over 6 million records exposed including photos, FIR details",
+    "severity": "Critical",
+    "description": "Tamil Nadu's police facial recognition portal was breached using compromised credentials, exposing millions of records and raising surveillance concerns.",
+    "details": {
+      "Actors": "Unknown",
+      "Targets": "FRS database",
+      "Motivation": "Data theft",
+      "Consequence": "Ongoing investigations"
+    },
+    "sources": [
+      {
+        "title": "25 Major Cyber Attacks in India That Shocked the Nation",
+        "url": "https://www.sattrix.com/blog/biggest-cyber-attacks-in-india/",
+        "type": "Comprehensive Report"
+      }
+    ],
+    "verificationStatus": "Claimed and exposed"
+  },
+  {
+    "id": "inc-2023-012",
+    "date": "2023-05-07",
+    "organization": "ABB India",
+    "sector": "Industrial Technology",
+    "incidentType": "Ransomware Attack",
+    "attackMethod": "Ransomware deployment via unauthorized access",
+    "rootCause": "Compromised credentials or unpatched vulnerabilities in Active Directory",
+    "impact": "Internal networks disrupted, including Active Directory; delays in business operations and projects; data exfiltration",
+    "severity": "High",
+    "description": "ABB India, a subsidiary of the global industrial technology company, was hit by a ransomware attack attributed to the Black Basta group. The attack interfered with internal systems, causing operational delays and highlighting vulnerabilities in the industrial sector.",
+    "details": {
+      "Actors": "Black Basta ransomware group",
+      "Targets": "ABB internal networks and Active Directory",
+      "Motivation": "Financial gain through extortion",
+      "Consequence": "Investigation and remediation; enhanced cybersecurity measures"
+    },
+    "sources": [
+      {
+        "title": "ABB confirms ransomware attack resulted in data theft",
+        "url": "https://www.cybersecuritydive.com/news/abb-basta-ransomware-attack/651531/",
+        "type": "Security Report"
+      },
+      {
+        "title": "Multinational tech firm ABB hit by Black Basta ransomware attack",
+        "url": "https://www.bleepingcomputer.com/news/security/multinational-tech-firm-abb-hit-by-black-basta-ransomware-attack/",
+        "type": "Cybersecurity Analysis"
+      }
+    ],
+    "verificationStatus": "Verified - Company confirmed"
+  },
+  {
+    "id": "inc-2023-013",
+    "date": "2023-05-29",
+    "organization": "Hawk Eye App (Telangana Police)",
+    "sector": "Government - Law Enforcement",
+    "incidentType": "Data Breach",
+    "attackMethod": "Unauthorized database access",
+    "rootCause": "Security vulnerabilities in app",
+    "impact": "200,000 citizens' data exposed including phone numbers, addresses",
+    "severity": "High",
+    "description": "Telangana Police's Hawk Eye app was breached, exposing citizen data. Hacker 'Adm1nFr1end' claimed responsibility and was later arrested.",
+    "details": {
+      "Actors": "Hacker 'Adm1nFr1end'",
+      "Targets": "App user database",
+      "Motivation": "Data sale",
+      "Consequence": "Hacker arrested; security enhancements"
+    },
+    "sources": [
+      {
+        "title": "25 Major Cyber Attacks in India That Shocked the Nation",
+        "url": "https://www.sattrix.com/blog/biggest-cyber-attacks-in-india/",
+        "type": "Comprehensive Report"
+      }
+    ],
+    "verificationStatus": "Verified - Police confirmed and arrest made"
+  },
+  {
+    "id": "inc-2023-014",
+    "date": "2023-09-27",
+    "organization": "SPARSH Portal (Defense Pension Management)",
+    "sector": "Government - Defense",
+    "incidentType": "Data Breach",
+    "attackMethod": "Unauthorized access to pension database",
+    "rootCause": "Compromised credentials",
+    "impact": "Sensitive information exposed including usernames, pension numbers; sold on dark web",
+    "severity": "High",
+    "description": "The SPARSH portal, managing pensions for defense personnel, suffered a breach exposing sensitive data sold on the dark web, raising privacy concerns.",
+    "details": {
+      "Actors": "Unknown hacker 'Hacking'",
+      "Targets": "SPARSH user database",
+      "Motivation": "Financial gain",
+      "Consequence": "Security protocols scrutiny"
+    },
+    "sources": [
+      {
+        "title": "25 Major Cyber Attacks in India That Shocked the Nation",
+        "url": "https://www.sattrix.com/blog/biggest-cyber-attacks-in-india/",
+        "type": "Comprehensive Report"
+      }
+    ],
+    "verificationStatus": "Claimed and leaked"
+  },
+  {
+    "id": "inc-2023-015",
+    "date": "2023-10-09",
+    "organization": "Indian Council of Medical Research (ICMR) COVID-19 Database",
+    "sector": "Healthcare/Government",
+    "incidentType": "Database Breach - Dark Web Sale",
+    "attackMethod": "Database compromise and dark web data trafficking",
+    "rootCause": "Insecure database configuration, potential credential compromise during pandemic data collection",
+    "impact": "815 million Indian residents' COVID-19 test records offered for sale on dark web including names, ages, Aadhaar numbers, passport numbers, addresses",
+    "severity": "Critical",
+    "description": "The personal data of 815 million Indian residents from ICMR's COVID-19 testing database was discovered being sold on dark web markets. Security company Resecurity identified the listing which included comprehensive personal information collected during India's pandemic response. This represents one of the largest healthcare data breaches in Indian history.",
+    "details": {
+      "Actors": "Cybercriminal groups operating on dark web markets",
+      "Targets": "ICMR COVID-19 central testing database, health ID systems",
+      "Motivation": "Financial gain from selling healthcare PII data",
+      "Consequence": "Government investigation launched, enhanced healthcare data protection protocols"
+    },
+    "sources": [
+      {
+        "title": "List of Data Breaches and Cyber Attacks in 2023",
+        "url": "https://www.itgovernance.co.uk/blog/list-of-data-breaches-and-cyber-attacks-in-2023",
+        "type": "Breach Database"
+      },
+      {
+        "title": "Recent Data Breaches: Major Cybersecurity Threats",
+        "url": "https://thelegalschool.in/blog/recent-data-breaches",
+        "type": "Legal Analysis"
+      }
+    ],
+    "verificationStatus": "Confirmed by security researchers"
+  },
+  {
+    "id": "inc-2023-016",
+    "date": "2023-11-01",
+    "organization": "Taj Hotels Group",
+    "sector": "Hospitality",
+    "incidentType": "Data Breach",
+    "attackMethod": "Unauthorized access to guest database",
+    "rootCause": "Security vulnerabilities",
+    "impact": "1.5 million individuals' personal information potentially compromised",
+    "severity": "High",
+    "description": "Taj Hotels group suffered a breach exposing guest data from 2014-2020, claimed by 'Dnacookies' demanding $5,000 ransom.",
+    "details": {
+      "Actors": "Threat actor 'Dnacookies'",
+      "Targets": "Guest database",
+      "Motivation": "Extortion",
+      "Consequence": "Investigation; no ongoing issues reported"
+    },
+    "sources": [
+      {
+        "title": "Taj hotel data breach: What the company has to say",
+        "url": "https://timesofindia.indiatimes.com/gadgets-news/taj-hotel-data-breach-what-the-company-has-to-say-ransom-demanded-conditions-set-by-hackers/articleshow/105461155.cms",
+        "type": "News Report"
+      }
+    ],
+    "verificationStatus": "Claimed and under investigation"
+  },
+  {
+    "id": "inc-2023-017",
+    "date": "2023-12-22",
+    "organization": "BSNL (Bharat Sanchar Nigam Ltd)",
+    "sector": "Telecommunications",
+    "incidentType": "Data Breach",
+    "attackMethod": "Unauthorized access to user database",
+    "rootCause": "Security lapses",
+    "impact": "Email addresses, billing details, contact numbers of thousands leaked; network specifics compromised",
+    "severity": "High",
+    "description": "BSNL suffered a breach exposing sensitive user data, including outage records and network details, claimed by threat actor 'Perell'.",
+    "details": {
+      "Actors": "Threat actor 'Perell'",
+      "Targets": "Fiber and landline user database",
+      "Motivation": "Data sale",
+      "Consequence": "CERT-In notified; privacy threats"
+    },
+    "sources": [
+      {
+        "title": "BSNL suffers data breach; sensitive info of users up for sale on dark web",
+        "url": "https://telecom.economictimes.indiatimes.com/news/industry/bsnl-suffers-data-breach-sensitive-info-of-users-up-for-sale-on-dark-web/106197459",
+        "type": "News Report"
+      }
+    ],
+    "verificationStatus": "Claimed and sample leaked"
+  },
+  {
+    "id": "inc-2023-018",
+    "date": "2023-01-01",
+    "organization": "Unspecified Crucial Defense Unit",
+    "sector": "Defense",
+    "incidentType": "Ransomware Attack",
+    "attackMethod": "Ransomware encryption",
+    "rootCause": "Vulnerabilities in defense systems",
+    "impact": "Access blocked; national security implications",
+    "severity": "Critical",
+    "description": "A crucial defense unit was hit by ransomware, as per DoPT's 2023-24 report. CBI investigated alongside other cybercrimes with national security impacts.",
+    "details": {
+      "Actors": "Unknown",
+      "Targets": "Defense unit systems",
+      "Motivation": "Disruption and extortion",
+      "Consequence": "CBI investigation; enhanced protocols"
+    },
+    "sources": [
+      {
+        "title": "Crucial defence unit was hit by ransomware attack in 2023: DoPT report",
+        "url": "https://www.thehindu.com/news/national/crucial-defence-unit-was-hit-by-ransomware-attack-in-2023-dopt-report/article68849536.ece",
+        "type": "Government Report"
+      }
+    ],
+    "verificationStatus": "Verified - Government report"
+  }
+]
